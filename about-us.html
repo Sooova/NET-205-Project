@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Algora</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'algora': {
+                            50: '#fef9f5',
+                            100: '#fdf2e9',
+                            500: '#F5D9C1',
+                            600: '#e6c4a3',
+                            700: '#d4a373',
+                            800: '#b08968',
+                            900: '#8b6f47',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-sans antialiased">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html">
+                        <img src="Algora Logo New.png" alt="Algora" class="h-8 w-auto">
+                    </a>
+                </div>
+
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="what-we-are-solving.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">What
+                            We're Solving</a>
+                        <a href="why-choose-us.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Why
+                            Choose Us</a>
+                        <a href="about-us.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">About
+                            Us</a>
+                        <a href="how-we-are-solving.html"
+                            class="nav-link text-algora-600 hover:text-algora-700 px-3 py-2 text-sm font-medium transition-colors">How
+                            We're Solving</a>
+                    </div>
+                </div>
+
+                <div class="md:hidden">
+                    <button type="button" id="mobile-menu-button"
+                        class="text-gray-700 hover:text-algora-600 focus:outline-none focus:text-algora-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                <a href="what-we-are-solving.html"
+                    class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">What
+                    We're Solving</a>
+                <a href="why-choose-us.html"
+                    class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Why
+                    Choose Us</a>
+                <a href="about-us.html"
+                    class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">About
+                    Us</a>
+                <a href="how-we-are-solving.html"
+                    class="nav-link text-algora-600 hover:text-algora-700 px-3 py-2 text-sm font-medium transition-colors">How
+                    We're Solving</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-br from-blue-50 to-purple-50 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">About Us</h1>
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+                    Meet the team building the future of social media
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Story</h2>
+
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        At Algora, we are reimagining social media from the ground up. For too long, online platforms
+                        have thrived on a model that treats people’s creativity and attention as commodities to be
+                        extracted and sold. Every post, like, and share contributes to immense corporate profits, while
+                        the individuals who generate this value see little in return. </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        We believe it doesn’t have to be this way. Algora is a non-profit, community-owned social media
+                        platform built on principles of fairness, transparency, and respect for human creativity.
+                        Instead of exploiting user labor for advertising revenue, we reward members for the value they
+                        create. Instead of hiding the way your feed is shaped behind a black box, we put you in control.
+                        And instead of flooding your attention with AI-generated content, we prioritise authentic,
+                        human-made connections. </p>
+                </div>
+
+                <div class="bg-algora-50 border-l-4 border-algora-500 p-6 rounded-r-lg mt-8">
+                    <h3 class="text-xl font-semibold text-algora-800 mb-4">Our Mission</h3>
+                    <p class="text-algora-700 leading-relaxed text-lg">
+                        Reclaim your feed, own your content, and get paid for your voice.
+                        Welcome to Algora, a community-powered social platform designed for transparency, equity, and
+                        autonomy—free from algorithmic manipulation and profit-driven AI
+                        . </p>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Core Values</h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-blue-50 to-algora-50 p-8 rounded-lg border border-blue-200">
+                        <h3 class="text-xl font-semibold text-blue-800 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                                </path>
+                            </svg>
+                            Reclaiming Value
+                        </h3>
+                        <p class="text-blue-700 leading-relaxed">
+                            On today’s platforms, billions of users provide free labor—writing posts, creating videos,
+                            moderating conversations, and generating data that feeds advertising systems. While this
+                            digital labor fuels enormous profits for companies, it leaves contributors with nothing but
+                            fleeting engagement metrics. Algora exists to redress this imbalance by ensuring users are
+                            compensated for the value they generate. </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-algora-50 p-8 rounded-lg border border-green-200">
+                        <h3 class="text-xl font-semibold text-green-800 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                </path>
+                            </svg>
+                            Empowering Choice
+                        </h3>
+                        <p class="text-green-700 leading-relaxed">
+                            Algorithms shape what we see online, yet most platforms keep their methods secret and tuned
+                            to maximize engagement, often at the expense of wellbeing. Algora gives the power back to
+                            users. Whether you prefer a chronological feed, an interest-driven one, or recommendations
+                            curated by your peers, you choose the algorithm that serves you best. Every algorithm is
+                            open, transparent, and explained in plain language.</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-algora-50 p-8 rounded-lg border border-purple-200">
+                        <h3 class="text-xl font-semibold text-purple-800 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                                </path>
+                            </svg>
+                            Protecting Authenticity
+                        </h3>
+                        <p class="text-purple-700 leading-relaxed">
+                            We live in an age of generative AI, where synthetic content increasingly drowns out human
+                            creativity. Algora is different. We commit to a zero-AI content policy, ensuring that what
+                            you encounter on our platform comes from real people and communities, not machines
+                            programmed to hijack your attention.</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-algora-50 p-8 rounded-lg border border-orange-200">
+                        <h3 class="text-xl font-semibold text-orange-800 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1">
+                                </path>
+                            </svg>
+                            Building Collective Ownership
+                        </h3>
+                        <p class="text-orange-700 leading-relaxed">
+                            Trust cannot exist without transparency. At Algora, our data practices, revenue models, and
+                            algorithms are fully open to public scrutiny. You’ll always know how your data is used, how
+                            recommendations are generated, and how funds are allocated. Our commitment is simple: no
+                            hidden agendas, no exploitation, no surprises.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Team</h2>
+
+                <div class="prose prose-lg max-w-none mb-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        We've grown from our humble beginnings of a small team of four, scaling to an almost 30 person
+                        team fueled with one goal: making social media great again.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-4 gap-6 mb-8">
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="text-3xl font-bold text-algora-600 mb-2">25+</div>
+                        <p class="text-gray-700 font-medium">Team Members</p>
+                        <p class="text-sm text-gray-600">Full-time contributors</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="text-3xl font-bold text-algora-600 mb-2">8</div>
+                        <p class="text-gray-700 font-medium">Countries</p>
+                        <p class="text-sm text-gray-600">Global distributed team</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="text-3xl font-bold text-algora-600 mb-2">15+</div>
+                        <p class="text-gray-700 font-medium">Years Combined</p>
+                        <p class="text-sm text-gray-600">Big Tech experience</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="text-3xl font-bold text-algora-600 mb-2">100%</div>
+                        <p class="text-gray-700 font-medium">Aligned</p>
+                        <p class="text-sm text-gray-600">On our mission</p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-algora-50 to-blue-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-algora-800 mb-6">Areas of Expertise</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-algora-700 mb-3">Technology</h4>
+                            <ul class="text-sm text-algora-600 space-y-1">
+                                <li>• Blockchain & Distributed Systems</li>
+                                <li>• Full-Stack Development</li>
+                                <li>• Cryptography & Security</li>
+                                <li>• Mobile & Web Platforms</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-algora-700 mb-3">Economics & Policy</h4>
+                            <ul class="text-sm text-algora-600 space-y-1">
+                                <li>• Token Economics Design</li>
+                                <li>• Digital Rights Advocacy</li>
+                                <li>• Platform Governance</li>
+                                <li>• Regulatory Compliance</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-algora-700 mb-3">Design & Community</h4>
+                            <ul class="text-sm text-algora-600 space-y-1">
+                                <li>• User Experience Design</li>
+                                <li>• Community Building</li>
+                                <li>• Content Strategy</li>
+                                <li>• Brand Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Principles</h2>
+
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">1</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">People Before Profits</h3>
+                            <p class="text-gray-700">
+                                Algora is owned by its community, not investors. Our priority is creating a digital
+                                environment that enhances wellbeing, creativity, and fairness. Every decision is made
+                                with people—not profits—in mind.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2"> Digital Labor Deserves Recognition
+                            </h3>
+                            <p class="text-gray-700">
+                                Content creation, moderation, and community-building are forms of labor. We acknowledge
+                                this labor and ensure that those who contribute are compensated through fair and
+                                transparent systems. The platform thrives because of its people, and they should share
+                                in its value.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Algorithmic Choice and Transparency
+                            </h3>
+                            <p class="text-gray-700">
+                                You deserve to understand and control how your feed is curated. We reject opaque
+                                algorithms designed to maximize engagement at all costs. Instead, Algora offers clear,
+                                open-source algorithms that you can select and adapt, ensuring your experience is shaped
+                                by your needs, not corporate interests.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">4</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Authentic Human Connection</h3>
+                            <p class="text-gray-700">
+                                We will never allow our platform to be overtaken by AI-generated content designed to
+                                mimic human expression. Algora is built to protect space for human creativity, dialogue,
+                                and community.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">5</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2"> Data Sovereignty
+                            </h3>
+                            <p class="text-gray-700">
+                                Your data belongs to you. Algora will never sell user data, and every member has the
+                                right to access, export, or delete their information at any time. We operate with
+                                complete transparency regarding what data is collected, why it is collected, and how it
+                                is safeguarded.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">6</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Community Governance
+                            </h3>
+                            <p class="text-gray-700">
+                                Algora is not controlled from the top down. Our governance model empowers users to shape
+                                policies and platform design through collective decision-making. From feature
+                                development to community standards, members have a voice and a vote.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">7</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Fairness and Inclusion
+                            </h3>
+                            <p class="text-gray-700">
+                                We commit to building a platform that serves diverse communities and prioritises
+                                inclusivity. Algora is designed to support meaningful engagement across cultural,
+                                social, and geographical divides, fostering spaces where everyone has the opportunity to
+                                contribute and be heard.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 bg-algora-100 rounded-full flex items-center justify-center">
+                            <span class="text-algora-600 font-bold">8</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Sustainability
+                            </h3>
+                            <p class="text-gray-700">
+                                Digital futures must also be environmentally sustainable. We strive to operate with
+                                energy-conscious hosting, ethical technology choices, and sustainable growth practices
+                                that minimize harm to the planet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <div class="bg-gray-900 text-white p-8 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Our Pledge to the Community</h3>
+                    <blockquote class="text-lg italic leading-relaxed">
+                        Algora is more than a platform—it is a movement toward a fairer, more transparent, and more
+                        human-centered digital economy. By valuing people over profits, empowering users to control
+                        their digital experiences, and ensuring that every contribution is recognized, we aim to create
+                        a new model for what social media can and should be. </blockquote>
+                    <p class="text-gray-300 mt-4 text-sm">— The Algora Team</p>
+                </div>
+            </div>
+
+            <div class="text-center bg-gradient-to-r from-algora-600 to-purple-600 text-white p-8 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Want to Join Our Mission?</h3>
+                <p class="text-lg mb-6 text-purple-100">
+                    We're always looking for passionate individuals who share our vision for a better social media
+                    future.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="how-solving.html"
+                        class="bg-white text-algora-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        See Our Solutions
+                    </a>
+                    <a href="index.html"
+                        class="bg-algora-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-algora-800 transition-colors">
+                        Join the Community
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex justify-center space-x-8 mb-8">
+                    <a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
+                    <a href="solving.html" class="text-gray-400 hover:text-white transition-colors">What We're
+                        Solving</a>
+                    <a href="why-choose.html" class="text-gray-400 hover:text-white transition-colors">Why Choose Us</a>
+                    <a href="how-solving.html" class="text-gray-400 hover:text-white transition-colors">Solutions</a>
+                </div>
+                <div class="border-t border-gray-700 pt-8">
+                    <p class="text-gray-500">&copy; 2024 Algora. Building the future of social media.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

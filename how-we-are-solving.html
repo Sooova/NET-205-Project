@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How We're Solving - Algora</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'algora': {
+                            50: '#fef9f5',
+                            100: '#fdf2e9',
+                            500: '#F5D9C1',
+                            600: '#e6c4a3',
+                            700: '#d4a373',
+                            800: '#b08968',
+                            900: '#8b6f47',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-sans antialiased">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html">
+                        <img src="Algora Logo New.png" alt="Algora" class="h-8 w-auto">
+                    </a>
+                </div>
+
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="what-we-are-solving.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">What
+                            We're Solving</a>
+                        <a href="why-choose-us.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">Why
+                            Choose Us</a>
+                        <a href="about-us.html"
+                            class="nav-link text-gray-700 hover:text-algora-600 px-3 py-2 text-sm font-medium transition-colors">About
+                            Us</a>
+                        <a href="how-we-are-solving.html"
+                            class="nav-link text-algora-600 hover:text-algora-700 px-3 py-2 text-sm font-medium transition-colors">How
+                            We're Solving</a>
+                    </div>
+                </div>
+
+                <div class="md:hidden">
+                    <button type="button" id="mobile-menu-button"
+                        class="text-gray-700 hover:text-algora-600 focus:outline-none focus:text-algora-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-algora-600">Home</a>
+                <a href="solving.html" class="block px-3 py-2 text-gray-700 hover:text-algora-600">What We're
+                    Solving</a>
+                <a href="why-choose.html" class="block px-3 py-2 text-gray-700 hover:text-algora-600">Why Choose Us</a>
+                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-algora-600">About Us</a>
+                <a href="how-solving.html" class="block px-3 py-2 text-algora-600 font-medium">How We're Solving</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-br from-purple-50 to-pink-50 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">How We're Solving It</h1>
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+                    Our technical approach and innovative solutions to transform social media
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Cutting through the BS...</h2>
+
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        At Algora, we’re here to cut through the "profoundly opaque” attention economy, and we’re not
+                        here to view our users as a simple money metric (Gorwa & Garton Ash, 2020, p. 20). Our platform
+                        seeks to address this systemic problem with our revolutionary approach that places you: whether
+                        you’re a viewer, a creator or a business, at the core. We’re all about transparency, whether
+                        that be through algorithms, user agency or community governance. </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        The cornerstone of our solution is complete algorithmic transparency, a principle that is seldom
+                        seen in the superficial disclosure practices currently employed by our competitors. We’ve
+                        conducted extensive research into how user attitudes towards algorithmic systems, and have found
+                        that what the user wants, is complete disclosure of our algorithm’s presence in conjunction with
+                        our interface design (Eslami et al., 2019, p. 6).</p>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Understand what you're seeing</h2>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Take your pick</h3>
+                        <div class="prose prose-lg">
+                            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                                We’re not here to lock you into black-box systems designed to hook you in and deprive
+                                you of your wellbeing. Algora is here to help both creators and viewers with an
+                                unprecedented amount of control over how your content is served, or what you see. Our
+                                transparent recommendation algorithm allows users to access what researchers call
+                                “transparent fairness” - where users can understand not just what content you are
+                                seeing, but exactly why you are seeing this in the first place (Shin et al., 2024, p.
+                                484).</p>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-algora-100 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-algora-600" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Full Transparency</h4>
+                                    <p class="text-gray-700 text-sm">Your post and view history is always available, and
+                                        we strive to explain exactly why you're seeing content</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-algora-100 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-algora-600" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">You're in control</h4>
+                                    <p class="text-gray-700 text-sm">Feeling educational today? Change your selected
+                                        algorithm on the top right of the for your page. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-algora-50 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold text-algora-800 mb-6">No blindspots</h3>
+                        <img class="rounded-lg" src="why-youre-seeing-this.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">An architecture that works with you, not against you
+                </h2>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <div class="bg-gradient-to-br from-purple-50 to-algora-50 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold text-algora-800 mb-6">Technology Stack</h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center py-2 border-b border-purple-200">
+                                <span class="text-algora-700 font-medium">Frontend</span>
+                                <span class="text-algora-600">NextJS, TypeScript</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-purple-200">
+                                <span class="text-algora-700 font-medium">Backend</span>
+                                <span class="text-algora-600">Node.js, GraphQL</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-purple-200">
+                                <span class="text-algora-700 font-medium">Storage Provider</span>
+                                <span class="text-algora-600">AWS</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-purple-200">
+                                <span class="text-algora-700 font-medium">Login Methods</span>
+                                <span class="text-algora-600 text-right">Google, Apple, Email or Anonymous</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-algora-700 font-medium">Mobile</span>
+                                <span class="text-algora-600">Swift, React Native, Kotlin</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="prose prose-lg">
+                            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                                All of our code is open-source and is available on our public github page. In doing so,
+                                we’ve accelerated development and built community collaboration and trust, and want to
+                                openly encourage you to help us in our development journey. Got a feature you’d like to
+                                see? Create a pull request on our github repository! We’re here to help see a future
+                                where transparency and openness help drive software adoption around the globe (Alarcon
+                                et al., 2020, p. 1).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">No longer at the mercy of the dreaded “Algorithm”</h2>
+
+                <div class="space-y-8">
+                    <div
+                        class="bg-gradient-to-r from-algora-100 to-algora-50 border-l-4 border-algora-600 p-8 rounded-r-lg">
+                        <h3 class="text-2xl font-semibold text-algora-800 mb-4 flex items-center">
+                            Let the content do the talking
+                        </h3>
+                        <p class="text-black leading-relaxed text-lg mb-4">
+                            As a content creator on Algora, you can say goodbye to the frustrating guesswork that
+                            currently dominates platform engagement strategies. Unlike traditional social media
+                            platforms where creators attempt to reverse-engineer mysterious algorithmic systems to
+                            engage in what resembles "playing the visibility game", Algora provides complete
+                            transparency in how content is evaluated and distributed (Cotter, 2019, p. 895). Research
+                            shows that influencers often spend considerable time "gathering information about how
+                            algorithms function to learn the rules of the game" and view this knowledge gathering as
+                            essential "research" (Cotter, 2019, p. 902). Our approach means that you can focus on
+                            creating content with the peace of mind that you are no longer at the mercy of the
+                            algorithm. </p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <p class="text-sm text-gray-700 font-medium mb-2">Algorithm Features:</p>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• User-configurable recommendation parameters</li>
+                                <li>• Real-time explainability for content suggestions</li>
+                                <li>• Community-driven algorithm improvements</li>
+                                <li>• Privacy-preserving personalization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-r from-algora-100 to-algora-50 border-l-4 border-algora-600 p-8 rounded-r-lg">
+                        <h3 class="text-2xl font-semibold text-algora-800 mb-4 flex items-center">
+                            Cast away the existing dark patterns
+                        </h3>
+                        <p class="text-black leading-relaxed text-lg mb-4">
+                            Competitor platforms tout algorithmic fairness, whilst intentionally obscuring exactly how
+                            their systems work (Katzenbach & Ulbricht, 2019, p. 8). Transparency and fairness cannot be
+                            separated, and must operate as “two sides of the same coin” (Shin et al., 2024, p. 483).
+                            Algora resolves this existing tension by ensuring our systems are open source, always
+                            visible and user adjustable. </p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <p class="text-sm text-gray-700 font-medium mb-2">What you <strong>won't</strong> see on
+                                Algora</p>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Obscured user metrics</li>
+                                <li>• Exploitative engagement strategies</li>
+                                <li>• AI content designed to steal your attention</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Security & Privacy</h2>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Privacy Protection</h3>
+                        <div class="prose prose-lg">
+                            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                                Unlike traditional social media companies that monetize user data as one of their
+                                primary
+                                revenue source (Kapczynski, 2020), Algora will never sell, share, or monetize your
+                                personal information
+                                with third parties. This commitment is built into our non-profit charter and legally
+                                binding organizational structure.
+                            </p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <ul class="text-sm text-gray-700 space-y-2">
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    User-controlled data sharing
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    No third-party data sales
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Security Measures</h3>
+                        <div class="prose prose-lg">
+                            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                                Our systems go above and beyond the industry standard for data security and privacy
+                                (Australian Cyber Security Centre, 2025), and will continue to do so.
+                            </p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <ul class="text-sm text-gray-700 space-y-2">
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    Cryptographically secured data
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    Regular security audits
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    Decentralized infrastructure
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    Bug bounty programs
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">How We Measure Success</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-blue-800 mb-4">Quantitative Metrics</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-blue-700">Creator Revenue Share</span>
+                                <span class="font-bold text-blue-600 text-right">Target: >70%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blue-700">User Data Ownership</span>
+                                <span class="font-bold text-blue-600 text-right">Target: 100%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blue-700">Algorithm Transparency</span>
+                                <span class="font-bold text-blue-600 text-right">Target: Open Source</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blue-700">Community Governance</span>
+                                <span class="font-bold text-blue-600 text-right">Target: >50% Participation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-green-800 mb-4">Qualitative Goals</h3>
+                        <ul class="text-green-700 space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                Improved user well-being and mental health
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                Authentic community connections
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                Creator economic empowerment
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                Digital rights advancement
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Implementation Roadmap</h2>
+                <div class="space-y-6">
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-r-lg">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold text-blue-800">Phase 1: Foundation</h3>
+                            <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Q1
+                                2025</span>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <ul class="text-blue-600 space-y-1">
+                                <li>• Basic social networking features</li>
+                                <li>• Identity and content ownership</li>
+                            </ul>
+                            <ul class="text-blue-600 space-y-1">
+                                <li>• Initial tokenomics implementation</li>
+                                <li>• Beta community launch</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-green-50 border-l-4 border-green-400 p-6 rounded-r-lg">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold text-green-800">Phase 2: Scaling</h3>
+                            <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Q2-Q3
+                                2025</span>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <ul class="text-green-600 space-y-1">
+                                <li>• Advanced recommendation engine</li>
+                                <li>• Mobile applications</li>
+                            </ul>
+                            <ul class="text-green-600 space-y-1">
+                                <li>• Enhanced governance tools</li>
+                                <li>• Creator monetization features</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-purple-50 border-l-4 border-purple-400 p-6 rounded-r-lg">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold text-algora-800">Phase 3: Expansion</h3>
+                            <span class="bg-purple-200 text-algora-800 px-3 py-1 rounded-full text-sm font-medium">Q4
+                                2025+</span>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <ul class="text-algora-600 space-y-1">
+                                <li>• Cross-platform interoperability</li>
+                                <li>• Advanced moderation system</li>
+                            </ul>
+                            <ul class="text-algora-600 space-y-1">
+                                <li>• Global community expansion</li>
+                                <li>• Enterprise solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-gradient-to-r from-purple-600 to-algora-600 text-white p-8 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Ready to Experience the Future?</h3>
+                <p class="text-lg mb-6 text-purple-100">
+                    Join our beta community and help us build the social platform that puts users first.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="index.html"
+                        class="bg-white text-algora-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        Join Beta Waitlist
+                    </a>
+                    <a href="about-us.html"
+                        class="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors">
+                        Meet the Team
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex justify-center space-x-8 mb-8">
+                    <a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
+                    <a href="what-we-are-solving.html" class="text-gray-400 hover:text-white transition-colors">What We're
+                        Solving</a>
+                    <a href="why-choose-us.html" class="text-gray-400 hover:text-white transition-colors">Why Choose Us</a>
+                    <a href="about-us.html" class="text-gray-400 hover:text-white transition-colors">About</a>
+                </div>
+                <div class="border-t border-gray-700 pt-8">
+                    <p class="text-gray-500">&copy; 2024 Algora. Building the future of social media.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
